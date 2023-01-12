@@ -10,4 +10,4 @@ jobs:
       - run: echo 'hello world'     
       
   example_job2:
-    uses: ./called2.yml@main
+    uses: cschleiden/cschleiden-called/.github/workflows/called2.yml@main
